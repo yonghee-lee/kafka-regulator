@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka-regulator-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kafka-regulator
+  template:
+    metadata:
+      labels:
+        app: kafka-regulator
+    spec:
+      containers:
+      - name: kafka-regulator
+        image: windmuse.iptime.org:8084/repository/kafka-regulator:1.0
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8089

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.2.0</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>net.fatdog</groupId>
+	<artifactId>kafka-regulator</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>kafka-regulator</name>
+	<description>Kafka regulator project for Spring Boot</description>
+	<properties>
+		<java.version>11</java.version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter</artifactId>
+		</dependency>
+		<dependency>
+        	<groupId>org.springframework.boot</groupId>
+        	<artifactId>spring-boot-starter-web</artifactId>
+    	</dependency>
+		<dependency>
+    		<groupId>org.projectlombok</groupId>
+    		<artifactId>lombok</artifactId>
+    		<version>1.18.30</version> <!-- Lombok 버전은 적절히 선택하세요 -->
+    		<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+                <groupId>io.fabric8</groupId>
+                <artifactId>fabric8-maven-plugin</artifactId>
+                <version>4.4.1</version> <!-- 사용할 플러그인의 버전 -->
+                <configuration>
+                    <images>
+                        <image>
+                            <name>kafka-regulator:%l</name>
+                            <build>
+                                <from>openjdk:17-jdk-alpine</from>
+                                <assembly>
+                                    <descriptorRef>artifact</descriptorRef>
+                                </assembly>
+                                <entryPoint>
+                                    <exec>
+                                        <arg>java</arg>
+                                        <arg>-jar</arg>
+                                        <arg>/app/app.jar</arg>
+                                    </exec>
+                                </entryPoint>
+                            </build>
+                        </image>
+                    </images>
+                    <resources>
+                        <labels>
+                            <all>
+                                <label>your-label-key=your-label-value</label>
+                            </all>
+                        </labels>
+                    </resources>
+                </configuration>
+            </plugin>
+		</plugins>
+		
+	</build>
+
+</project>

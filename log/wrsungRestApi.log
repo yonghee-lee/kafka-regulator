@@ -1,0 +1,42 @@
+2023-12-25 12:40:07.742 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Starting KafkaRegulatorApplicationTests using Java 17.0.9 with PID 65271 (started by yongheelee in /Users/yongheelee/workspace/kafka-regulator/regulator/kafka-regulator)
+2023-12-25 12:40:07.744 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 12:40:08.841 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Started KafkaRegulatorApplicationTests in 1.401 seconds (process running for 2.211)
+2023-12-25 12:40:08.848 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Periodical Task...
+2023-12-25 12:40:14.041 INFO  [scheduling-1] [n.f.k.jmx.JmxConnectionManager] - Getting connection failed.
+2023-12-25 12:40:14.042 ERROR [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Kafka JMX 포트에 연결을 실패하였습니다.
+2023-12-25 12:40:14.042 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Not yet.
+2023-12-25 12:48:29.492 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Starting KafkaRegulatorApplicationTests using Java 17.0.9 with PID 65798 (started by yongheelee in /Users/yongheelee/workspace/kafka-regulator/regulator/kafka-regulator)
+2023-12-25 12:48:29.493 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 12:48:30.413 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Started KafkaRegulatorApplicationTests in 1.187 seconds (process running for 1.909)
+2023-12-25 12:48:30.418 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Periodical Task...
+2023-12-25 12:48:35.594 INFO  [scheduling-1] [n.f.k.jmx.JmxConnectionManager] - Getting connection failed.
+2023-12-25 12:48:35.595 ERROR [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Kafka JMX 포트에 연결을 실패하였습니다.
+2023-12-25 12:48:35.596 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Not yet.
+2023-12-25 12:50:16.546 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Starting KafkaRegulatorApplicationTests using Java 17.0.9 with PID 65914 (started by yongheelee in /Users/yongheelee/workspace/kafka-regulator/regulator/kafka-regulator)
+2023-12-25 12:50:16.547 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 12:50:17.418 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Started KafkaRegulatorApplicationTests in 1.128 seconds (process running for 1.814)
+2023-12-25 12:50:17.422 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Periodical Task...
+2023-12-25 12:50:22.472 INFO  [scheduling-1] [n.f.k.jmx.JmxConnectionManager] - Getting connection failed.
+2023-12-25 12:50:22.473 ERROR [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Kafka JMX 포트에 연결을 실패하였습니다.
+2023-12-25 12:50:22.474 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Not yet.
+2023-12-25 12:51:37.057 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Starting KafkaRegulatorApplicationTests using Java 17.0.9 with PID 66092 (started by yongheelee in /Users/yongheelee/workspace/kafka-regulator/regulator/kafka-regulator)
+2023-12-25 12:51:37.059 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 12:51:38.002 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Started KafkaRegulatorApplicationTests in 1.204 seconds (process running for 1.938)
+2023-12-25 12:51:38.010 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Periodical Task...
+2023-12-25 12:51:43.240 INFO  [scheduling-1] [n.f.k.jmx.JmxConnectionManager] - Getting connection failed.
+2023-12-25 12:51:43.241 ERROR [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Kafka JMX 포트에 연결을 실패하였습니다.
+2023-12-25 12:51:43.241 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Not yet.
+2023-12-25 12:51:49.527 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Starting KafkaRegulatorApplicationTests using Java 17.0.9 with PID 66128 (started by yongheelee in /Users/yongheelee/workspace/kafka-regulator/regulator/kafka-regulator)
+2023-12-25 12:51:49.528 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 12:51:50.470 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Started KafkaRegulatorApplicationTests in 1.205 seconds (process running for 1.907)
+2023-12-25 12:51:50.475 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Periodical Task...
+2023-12-25 12:51:55.523 INFO  [scheduling-1] [n.f.k.jmx.JmxConnectionManager] - Getting connection failed.
+2023-12-25 12:51:55.524 ERROR [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Kafka JMX 포트에 연결을 실패하였습니다.
+2023-12-25 12:51:55.525 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Not yet.
+2023-12-25 12:54:12.610 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Starting KafkaRegulatorApplicationTests using Java 17.0.9 with PID 66338 (started by yongheelee in /Users/yongheelee/workspace/kafka-regulator/regulator/kafka-regulator)
+2023-12-25 12:54:12.612 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - No active profile set, falling back to 1 default profile: "default"
+2023-12-25 12:54:13.677 INFO  [main] [n.f.k.KafkaRegulatorApplicationTests] - Started KafkaRegulatorApplicationTests in 1.351 seconds (process running for 2.1)
+2023-12-25 12:54:13.684 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Periodical Task...
+2023-12-25 12:54:18.876 INFO  [scheduling-1] [n.f.k.jmx.JmxConnectionManager] - Getting connection failed.
+2023-12-25 12:54:18.877 ERROR [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Kafka JMX 포트에 연결을 실패하였습니다.
+2023-12-25 12:54:18.877 INFO  [scheduling-1] [n.f.kafkaregulator.task.ScheduledTasks] - Not yet.
