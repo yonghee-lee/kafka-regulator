@@ -12,18 +12,22 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-public class WebSocketClientDemo {
+public class WebSocketClient {
+    
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
     private final WebSocketClient client = new StandardWebSocketClient();
+    private String id;
 
     public void connectToWebSocket() {
         client.doHandshake(new SimpleClientWebSocketHandler(), "ws://localhost:8080/my-websocket-endpoint");
+        client.execute(new SimpleClientWebSocketHandler(), "ws://localhost:8080/my-websocket-endpoint");
     }
 
     private class SimpleClientWebSocketHandler implements WebSocketHandler {
         @Override
-        public void afterConnectionEstablished(WebSocketSession session) {
+        public voiwd afterConnectionEstablished(WebSocketSession session) {
             // Connection established
+            this.id = session.getId();
         }
 
         @Override
